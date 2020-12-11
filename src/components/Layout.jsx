@@ -15,8 +15,6 @@ export default class Layout extends Component {
     });
   };
   render() {
-    const { isNavOpen } = this.state;
-
     return (
       <Container fluid className="p-0 m-0">
         <HeaderNav

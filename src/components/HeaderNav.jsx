@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import {
   Nav,
   Navbar,
-  NavDropdown,
   Form,
   FormControl,
   Button,
@@ -47,14 +46,14 @@ class HeaderNav extends Component {
               />
             </Form>
           )}
-          <Button variant="outline-light">
-            <i class="fas fa-search" onClick={this.onSearchToggle}></i>
+          <Button variant="outline-light" onClick={this.onSearchToggle}>
+            <i class="fas fa-search"></i>
           </Button>
           <Nav.Link eventKey="link-1" className="text-white">
             <i class="fab fa-github"></i>
           </Nav.Link>
           <Nav.Link eventKey="link-1" className="text-white">
-            Release v1.0
+            Release v1.2
           </Nav.Link>
         </Nav>
       </Navbar>
